@@ -1,4 +1,4 @@
-# HOL 1: Migrate Windows and Linux Servers to Azure
+# Hands-On-Lab 1: Migrate Windows and Linux Servers to Azure
 
 Duration: 20 minutes
 

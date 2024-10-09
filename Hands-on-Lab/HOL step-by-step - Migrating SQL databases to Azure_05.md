@@ -24,7 +24,7 @@ In this task, you perform some configuration for the `WideWorldImporters` databa
 
 1. In the list of resources for your resource group, select the **<inject key="SQLVM Name" enableCopy="false"/>** VM.
 
-   ![The SqlServer2008 VM is highlighted in the list of resources.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Migrating-SQL-databases-to-Azure/fix/Hands-on%20lab/images/images/vmrg.png "Resource list")
+   ![The SqlServer2008 VM is highlighted in the list of resources.](images/vmrg.png "Resource list")
 
 1. From the overview page of  the **<inject key="SQLVM Name" enableCopy="false"/>** VM, select **Connect**.
 

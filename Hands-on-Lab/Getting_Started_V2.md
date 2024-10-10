@@ -23,6 +23,18 @@ Participants should have a basic understanding of the following:
 - **Networking Basics:** Familiarity with creating SMB shares and managing network configurations.
 - **Web Application Deployment:** Basic knowledge of deploying Web Applications to Azure and configuring App Service settings.
 
+
+
+
+### Explanation of Components
+The architecture for this lab involves the following key components:
+
+- **Azure Migrate:** A service that helps assess and migrate on-premises workloads to Azure, providing tools for discovery, assessment, and migration.
+- **Azure SQL Database:** A fully managed database service that provides scalability, security, and high availability for SQL workloads in the cloud.
+- **Azure SQL Managed Instance (SQL MI):** Offers near 100% compatibility with the SQL Server engine and is designed for easy migration of existing SQL Server workloads to Azure.
+- **Azure App Service:** A fully managed platform for building, deploying, and scaling web apps and APIs.
+- **SMB Network Share:** A file-sharing protocol used to create shared folders for backups or data transfer in the migration process.
+
 ## **Accessing Your Lab Environment**
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.

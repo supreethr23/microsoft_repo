@@ -1,8 +1,11 @@
-## **Getting Started with Migrate and Modernise SQL Servers to Azure Workshop**
- 
-Welcome to your Migrate and Modernise SQL Servers to Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+# Migrate and Modernise SQL Servers to Azure
+### Overall Estimated Duration: 8 Hours
 
- 
+## Overview
+Migrating and modernizing SQL Servers to Azure involves moving on-premises databases to cloud-based solutions like Azure SQL Database, Azure SQL Managed Instance, or SQL Server on Azure VMs. This process includes assessing existing workloads, choosing the appropriate migration approach, and leveraging Azure's cloud-native features for enhanced performance, security, and scalability. Post-migration, organizations benefit from automated backups, high availability, cost optimization, and continuous monitoring, all while reducing operational overhead and improving business continuity.
+
+## Objective 
+
 ## **Accessing Your Lab Environment**
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.

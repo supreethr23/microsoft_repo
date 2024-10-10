@@ -12,6 +12,17 @@ Migrating and modernizing SQL Servers to Azure involves moving on-premises datab
 - **Migrate the database to SQL MI:** Create an SMB network share, change MSSQLSERVER to sqlmiuser, back up the database, retrieve connection info, run a migration project, perform cutover, and verify migration.
 - **Update the web application to use the new SQL MI database:** Deploy the web app to Azure and update the App Service configuration.
 
+  ### Prerequisites
+
+Participants should have a basic understanding of the following:
+
+- **Azure Migrate:** Familiarity with Azure Migrate for assessing and migrating on-premises workloads.
+- **Azure SQL Database & SQL Managed Instance:** Basic knowledge of Azure SQL services and their features.
+- **Azure Portal Navigation:** Experience navigating the Azure portal for managing resources.
+- **SQL Server Management:** Understanding of SQL Server concepts and operations.
+- **Networking Basics:** Familiarity with creating SMB shares and managing network configurations.
+- **Web Application Deployment:** Basic knowledge of deploying Web Applications to Azure and configuring App Service settings.
+
 ## **Accessing Your Lab Environment**
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.

@@ -2,7 +2,6 @@
 
 In this lab, you will connect to the WideWorldImporters database on the SqlServer2008 VM and perform assessments for migration to Azure SQL Database and Azure SQL Managed Instance. These assessments will help you understand the compatibility and readiness of your database for migration to Azure. You will evaluate the database schema, data, and performance to identify any potential issues and determine the best migration strategy. This process ensures a smooth transition to Azure’s cloud services, leveraging their scalability, security, and advanced features.
 
-# Exercise 1: Perform database assessments
 
 ## Lab Objective
 
@@ -12,7 +11,8 @@ In this Exercise, you will complete the following tasks:
 - Task 2: Perform assessment for migration to Azure SQL Database
 - Task 3: Perform assessment for migration to Azure SQL Managed Instance
 
-### Task 1: Connect to the WideWorldImporters database on the SqlServer2008 VM
+## Exercise 1: Perform database assessments
+## Task 1: Connect to the WideWorldImporters database on the SqlServer2008 VM
 
 In this task, you perform some configuration for the `WideWorldImporters` database on the SQL Server 2008 R2 instance to prepare it for migration.
 
@@ -124,7 +124,7 @@ In this task, you perform some configuration for the `WideWorldImporters` databa
 
     ![The Execute button is highlighted in the SSMS toolbar.](images/Ex1-Task1-S14.png "SSMS Toolbar")
 
-### Task 2: Perform assessment for migration to Azure SQL Database
+## Task 2: Perform assessment for migration to Azure SQL Database
 
 In this task, you use the Microsoft Data Migration Assistant (DMA) to assess the `WideWorldImporters` database against the Azure SQL Database (Azure SQL DB). The assessment provides a report about any feature parity and compatibility issues between the on-premises database and the Azure SQL DB service.
 
@@ -146,7 +146,7 @@ In this task, you use the Microsoft Data Migration Assistant (DMA) to assess the
 
     > The DMA assessment for migrating the `WideWorldImporters` database to a target platform of Azure SQL DB reveals features in use that are not supported. These features, including Service broker, prevent WWI from migrating to the Azure SQL DB PaaS offering without making changes to their database.
 
-### Task 3: Perform assessment for migration to Azure SQL Managed Instance
+## Task 3: Perform assessment for migration to Azure SQL Managed Instance
 
 With one PaaS offering ruled out due to feature parity, perform a second DMA assessment against Azure SQL Managed Instance (SQL MI). The assessment provides a report about any feature parity and compatibility issues between the on-premises database and the SQL MI service.
 

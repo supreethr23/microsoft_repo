@@ -1,7 +1,7 @@
 # Hands-On-Lab 3: Migrate SQL to Azure SQL Managed Instance
 
 In this lab, you will migrate the WideWorldImporters database from a SQL Server 2008 VM to Azure SQL Managed Instance. You’ll start by setting up an SMB network share and configuring the MSSQLSERVER service to run under the sqlmiuser account. Then, you’ll back up the database, gather connection information, and create an online data migration project. Finally, you’ll perform the migration cutover and verify the database and transaction log migration. These steps ensure a smooth transition to Azure’s cloud services.
-# Exercise 2: Migrate the database to SQL MI
+
 ## Lab Objectives
 
 Lab Objectives
@@ -16,7 +16,8 @@ In this Exercise, you will complete the following tasks:
 - Task 6: Perform migration cutover
 - Task 7: Verify database and transaction log migration
 
-### Task 1: Create an SMB network share on the **<inject key="SQLVM Name" enableCopy="false"/>** VM
+## Exercise 1: Perform database assessments
+## Task 1: Create an SMB network share on the **<inject key="SQLVM Name" enableCopy="false"/>** VM
 
 In this task, you create a new SMB network share on the <inject key="SQLVM Name" enableCopy="false"/> VM. DMS uses this shared folder for retrieving backups of the `WideWorldImporters` database during the database migration process.
 
@@ -44,7 +45,7 @@ In this task, you create a new SMB network share on the <inject key="SQLVM Name"
 
    ![The Done button is highlighted on the File Sharing dialog.]( images/EX2-Task1-S6.png "File Sharing")
 
-### Task 2: Change MSSQLSERVER service to run under sqlmiuser account
+## Task 2: Change MSSQLSERVER service to run under sqlmiuser account
 
 In this task, you use the SQL Server Configuration Manager to update the service account used by the SQL Server (MSSQLSERVER) service to the `sqlmiuser` account. Changing the account used for this service ensures it has the appropriate permissions to write backups to the shared folder.
 
@@ -77,7 +78,7 @@ In this task, you use the SQL Server Configuration Manager to update the service
 
 7. Close the SQL Server Configuration Manager.
 
-### Task 3: Create a backup of the WideWorldImporters database
+## Task 3: Create a backup of the WideWorldImporters database
 
 To perform online data migrations, DMS looks for database and transaction log backups in the shared SMB backup folder on the source database server. In this task, you create a backup of the `WideWorldImporters` database using SSMS and write it to the ```\\SQL2008-SUFFIX\dms-backups``` SMB network share you made in a previous task. The backup file needs to include a checksum, so you add that during the backup steps.
 
@@ -126,7 +127,7 @@ To perform online data migrations, DMS looks for database and transaction log ba
 
     ![Screenshot of the dialog confirming the database backup was completed successfully.]( images/ssms-backup-complete.png "Backup complete")
 
-### Task 4: Retrieve SQL MI and SQL Server 2008 VM connection information
+## Task 4: Retrieve SQL MI and SQL Server 2008 VM connection information
 
 In this task, you use the Azure Cloud shell to retrieve the information necessary to connect to your <inject key="SQLVM Name" enableCopy="false"/> VM from DMS.
 
@@ -168,7 +169,7 @@ In this task, you use the Azure Cloud shell to retrieve the information necessar
 
 7. Leave the Azure Cloud Shell open for the next task.
 
-### Task 5: Create and run an online data migration project
+## Task 5: Create and run an online data migration project
 
 In this task, you create a new online data migration project in DMS for the `WideWorldImporters` database.
 
@@ -261,7 +262,7 @@ In this task, you create a new online data migration project in DMS for the `Wid
     
     ![]( images/Ex2-Task5-S18.png)
 
-### Task 6: Perform migration cutover
+## Task 6: Perform migration cutover
 
 Since you performed an "online data migration," the migration wizard continuously monitors the SMB network share for newly added log backup files. Online migrations enable any updates on the source database to be captured until you initiate the cutover to the SQL MI database. In this task, you add a record to one of the database tables, backup the logs, and complete the migration of the `WideWorldImporters` database by cutting over to the SQL MI database.
 
@@ -345,7 +346,7 @@ Since you performed an "online data migration," the migration wizard continuousl
 
 1. You have successfully migrated the `WideWorldImporters` database to Azure SQL Managed Instance.
 
-### Task 7: Verify database and transaction log migration
+## Task 7: Verify database and transaction log migration
 
 In this task, you connect to the SQL MI database using SSMS and quickly verify the migration.
 

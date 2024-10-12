@@ -4,7 +4,7 @@
 
 ## Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 
-### Task 1: Create a migration assessment
+## Task 1: Create a migration assessment
 
 In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
 

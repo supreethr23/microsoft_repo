@@ -23,13 +23,13 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
  4. In the **Create project** wizard, provide the below information to create a Azure migrate project and select **Create (5)**. 
       
       * Subscription: **Select your Azure subscription (1)**
-      * Resource group: **MigrateServers (2)**
+      * Resource group: **ODL-migrate-modernize-XXXX-MigrateServers (2)** 
       * Project: **<inject key="Azure Migrate Project Name"></inject> (3)**
-      * Geography: **United States (4)** 
+      * Geography: **United States (4)**   
    
     ![]( images/exe1-step4-create-migrate-project-with-details.png)
 
-5. In the **Azure Migrate: Discovery and assessment** tool, select **Discover** to open the **Discover** blade.
+5. In the **Azure Migrate: Discovery and assessment** tool, select **Discover** and select **add using appliance** to open the **Discover** blade.
  
     ![]( images/exe1-step5-select-dicsover.png)
 
@@ -60,7 +60,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
       ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.]( images/upd-hyper-v-manager.png "Hyper-V Manager")
 
-12. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (1)**. You should now see the five VMs(2) along with the AzureMigrateAppliance VM that comprise the on-premises environment and will be used in the next HOLs.
+12. In Hyper-V Manager, select **HOSTVMS (1)**. You should now see the five VMs(2) along with the AzureMigrateAppliance VM that comprise the on-premises environment and will be used in the next HOLs.
 
     ![Screenshot of Hyper-V Manager on the SmartHotelHost.]( images/exe1-step12-view-hyperv-vms.png "Hyper-V Manager")
      
@@ -160,7 +160,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 28. On the **Add discovery source** blade, provide the following details:
      
       1. Select **Add single item (1)**
-      1. IP Address / FQDN:  Enter **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (2)** 
+      1. IP Address / FQDN:  Enter **HOSTVMS (2)** 
       1. Friendly name: Select **hostlogin (3)** from the dropdown and 
       1. Select **Save (4)**.
 

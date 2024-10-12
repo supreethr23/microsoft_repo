@@ -1,6 +1,6 @@
 # Hands-On-Lab 1: Migrate Windows and Linux Servers to Azure
 
-Duration: 25 minutes
+### Estimated Duration: 25 minutes
 
 ## Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 

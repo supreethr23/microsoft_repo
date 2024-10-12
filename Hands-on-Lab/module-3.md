@@ -12,8 +12,8 @@ In this lab, you will complete the following tasks:
    - Task 5: Migrate the database using the Azure Database Migration Service
    - Task 6: Configure the application connection to SQL Azure Database
 
-# Exercise 1: Migrate the on-premises database to Azure SQL Database
-### Task 1: Connect to your SqlServer2008 VM with RDP
+## Exercise 1: Migrate the on-premises database to Azure SQL Database
+## Task 1: Connect to your SqlServer2008 VM with RDP
 
 1. From your lab environment (**WebVM**), in the search bar, **Search** for **RDP** and **select** the **Remote Desktop Connection** app.
    
@@ -36,7 +36,7 @@ In this lab, you will complete the following tasks:
 
    ![](images/17-04-2024(1).png)
 
-### Task 2: Perform assessment for migration to Azure SQL Database
+## Task 2: Perform assessment for migration to Azure SQL Database
 
 Parts Unlimited would like an assessment to see what potential issues they might need to address in moving their database to Azure SQL Database. In this task, you will use the [Microsoft Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview?view=sql-server-2017) (DMA) to assess the `PartsUnlimited` database against Azure SQL Database (Azure SQL DB). Data Migration Assistant (DMA) enables you to upgrade to a modern data platform by detecting compatibility issues that can impact database functionality on your new version of SQL Server or Azure SQL Database. It recommends performance and reliability improvements for your target environment. The assessment generates a report detailing any feature parity and compatibility issues between the on-premises database and the Azure SQL DB service.
 
@@ -136,7 +136,7 @@ Parts Unlimited would like an assessment to see what potential issues they might
 
     ![Azure Migrate Databases page is open. The number of assessed database instances and the number of databases ready for Azure SQL DB shows one.](images/dma-azure-migrate-web-2.1.png "Azure Migrate Database Assessment")
 
-### Task 3: Retrieve connection information for SQL Databases (Optional)
+## Task 3: Retrieve connection information for SQL Databases (Optional)
 
 In this task, you will retrieve the Fully Qualified Domain Name for the Azure SQL Database. This information is needed to connect to the Azure SQL Database from Azure Data Migration Service and Azure Data Migration Assistant.
 
@@ -148,7 +148,7 @@ In this task, you will retrieve the Fully Qualified Domain Name for the Azure SQ
 
    ![The server name value is highlighted on the SQL database Overview blade.](images/updated45.png "SQL database")
 
-### Task 4: Migrate the database schema using the Data Migration Assistant
+## Task 4: Migrate the database schema using the Data Migration Assistant
 
 After you have reviewed the assessment results and you have ensured the database is a candidate for migration to Azure SQL Database, please use the Data Migration Assistant to migrate the schema to Azure SQL Database.
 
@@ -248,7 +248,7 @@ After you have reviewed the assessment results and you have ensured the database
 
 > **Note**: You can now disconnect from the **SQLVM** and perform the remaining exercises from the **LabVM**.
 
-### Task 5: Migrate the database using the Azure Database Migration Service
+## Task 5: Migrate the database using the Azure Database Migration Service
 
 At this point, you have migrated the database schema using DMA. In this task, you migrate the data from the `PartsUnlimited` database into the new Azure SQL Database using the Azure Database Migration Service.
 
@@ -357,7 +357,7 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
     ![On the Migration job blade, the status of Completed is highlighted.](images/01-04-2024(15).png "Migration with Completed status")
 
-### Task 6: Configure the application connection to SQL Azure Database
+## Task 6: Configure the application connection to SQL Azure Database
 
 Now that we have both our application and database migrated to Azure. It is time to configure our application to use the SQL Azure Database.
 

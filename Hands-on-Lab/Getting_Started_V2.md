@@ -6,7 +6,7 @@ Migrating and modernizing SQL Servers to Azure involves moving on-premises datab
 
 ## Objective
 - **Create and Setup Azure Migrate Project and Appliance:** Create an Azure Migrate project and deploy the appliance to collect VM data from your Hyper-V environment for migration analysis.
-- **Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers:** use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
+- **Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers:** use Azure Migrate to create a migration assessment for the application, using the data gathered during the discovery phase.
 - **Migrate the on-premises database to Azure SQL Database:** Connect to your SQLServer2008 VM, assess it for Azure SQL migration, migrate the schema and database using migration tools, and configure the application to connect to the SQL Azure Database. 
 - **Perform database assessments:** Connect to the database on the SqlServer2008 VM, then assess its migration suitability for both Azure SQL Database and Azure SQL Managed Instance.
 - **Migrate the database to SQL MI:** Create an SMB network share, change MSSQLSERVER to sqlmiuser, back up the database, retrieve connection info, run a migration project, perform cutover, and verify migration.

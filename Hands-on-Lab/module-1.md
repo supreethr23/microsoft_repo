@@ -132,7 +132,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
     
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
-   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project as completed.]( images/addcreds.png "Appliance registered")
+   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project as completed.]( images/registerimg.png "Appliance registered")
 
    > **Note:** If you are presented with **Action Required** dialog box, then select **Ask later** option.
 

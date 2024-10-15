@@ -244,7 +244,7 @@ In this task, you create a new online data migration project in DMS for the `Wid
       - **Target database name**: Enter **WideWorldImporters<inject key="Suffix" />**, make sure to Add **SUFFIX** at the end.
       - **Network share path**: Enter **\\\SQL2008-<inject key="Suffix" />\dms-backups**
 
-         ![]( images/E2T5S15.png)
+         ![]( images/E2T5S151.png)
 
 16. In the Run Validate page wait till all the validation steps are successful then click on **Done**.
 

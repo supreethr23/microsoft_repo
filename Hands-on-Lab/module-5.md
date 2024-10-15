@@ -17,7 +17,7 @@ In this Exercise, you will complete the following tasks:
 - Task 7: Verify database and transaction log migration
 
 ## Exercise 2: Perform database assessments
-## Task 1: Create an SMB network share on the **<inject key="SQLVM Name" enableCopy="false"/>** VM
+### Task 1: Create an SMB network share on the **<inject key="SQLVM Name" enableCopy="false"/>** VM
 
 In this task, you create a new SMB network share on the <inject key="SQLVM Name" enableCopy="false"/> VM. DMS uses this shared folder for retrieving backups of the `WideWorldImporters` database during the database migration process.
 
@@ -45,7 +45,7 @@ In this task, you create a new SMB network share on the <inject key="SQLVM Name"
 
    ![The Done button is highlighted on the File Sharing dialog.]( images/EX2-Task1-S6.png "File Sharing")
 
-## Task 2: Change MSSQLSERVER service to run under sqlmiuser account
+### Task 2: Change MSSQLSERVER service to run under sqlmiuser account
 
 In this task, you use the SQL Server Configuration Manager to update the service account used by the SQL Server (MSSQLSERVER) service to the `sqlmiuser` account. Changing the account used for this service ensures it has the appropriate permissions to write backups to the shared folder.
 
@@ -78,7 +78,7 @@ In this task, you use the SQL Server Configuration Manager to update the service
 
 7. Close the SQL Server Configuration Manager.
 
-## Task 3: Create a backup of the WideWorldImporters database
+### Task 3: Create a backup of the WideWorldImporters database
 
 To perform online data migrations, DMS looks for database and transaction log backups in the shared SMB backup folder on the source database server. In this task, you create a backup of the `WideWorldImporters` database using SSMS and write it to the ```\\SQL2008-SUFFIX\dms-backups``` SMB network share you made in a previous task. The backup file needs to include a checksum, so you add that during the backup steps.
 
@@ -169,7 +169,7 @@ In this task, you use the Azure Cloud shell to retrieve the information necessar
 
 7. Leave the Azure Cloud Shell open for the next task.
 
-## Task 5: Create and run an online data migration project
+### Task 5: Create and run an online data migration project
 
 In this task, you create a new online data migration project in DMS for the `WideWorldImporters` database.
 
@@ -417,5 +417,5 @@ In this task, you connect to the SQL MI database using SSMS and quickly verify t
 
 In this hands-on lab, you will migrate the WideWorldImporters database from a SQL Server 2008 VM to Azure SQL Managed Instance.
 
-## You have Successfully completed the Exercise!
+### You have Successfully completed the Exercise!
 

@@ -4,7 +4,7 @@
 
 ## Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 
-## Task 1: Create a migration assessment
+### Task 1: Create a migration assessment
 
 In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
 
@@ -230,6 +230,6 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing the dependencies view in Azure Migrate.]( images/hol1-exe2-task2-step34-view-dependency.png "Dependency map")
     
 
-#### Task summary 
+### Summary 
 
 In this exercise you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.

@@ -415,4 +415,4 @@ Now that we have both our application and database migrated to Azure. It is time
  
 In this exercise, you have migrated the on-premises database to Azure SQL Database.
 
-## You have successfully completed the exercise! 
+### You have successfully completed the exercise!

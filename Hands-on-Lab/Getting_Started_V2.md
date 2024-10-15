@@ -93,7 +93,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. 1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
 
-   ![Asklater](.././media/asklater.png)
+   ![](images/asklater.png "Enter Password")
 
    >**NOTE:** Do not enable MFA, select **Ask Later**.
  

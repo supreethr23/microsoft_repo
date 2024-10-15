@@ -41,15 +41,15 @@ The architecture for this lab involves the following key components:
 - **Azure SQL Managed Instance (SQL MI):** Offers near 100% compatibility with the SQL Server engine and is designed for easy migration of existing SQL Server workloads to Azure.
 - **Azure App Service:** A fully managed platform for building, deploying, and scaling web apps and APIs.
 - **SMB Network Share:** A file-sharing protocol used to create shared folders for backups or data transfer in the migration process.
-## Getting Started with Your Hybrid Cloud Solution Hands On Lab
 
+## Getting Started with Your Hybrid Cloud Solution Hands On Lab
 Welcome to your Migrate and Modernise SQL Servers to Azure Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ## **Accessing Your Lab Environment**
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
  
-![](images/GS6.png "Lab Environment")
+![](images/getstarted.png "Lab Environment")
 
 ## **Virtual Machine & Lab Guide**
  

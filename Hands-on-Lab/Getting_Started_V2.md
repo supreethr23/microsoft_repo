@@ -41,6 +41,9 @@ The architecture for this lab involves the following key components:
 - **Azure SQL Managed Instance (SQL MI):** Offers near 100% compatibility with the SQL Server engine and is designed for easy migration of existing SQL Server workloads to Azure.
 - **Azure App Service:** A fully managed platform for building, deploying, and scaling web apps and APIs.
 - **SMB Network Share:** A file-sharing protocol used to create shared folders for backups or data transfer in the migration process.
+## Getting Started with Your Hybrid Cloud Solution Hands On Lab
+
+Welcome to your Migrate and Modernise SQL Servers to Azure Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ## **Accessing Your Lab Environment**
  
@@ -97,5 +100,15 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. Now, click on **Next** from the lower right corner to move to the next page.
 
    ![](./images/GS4.png)
+
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+Email Support: cloudlabs-support@spektrasystems.com
+Live Chat Support: https://cloudlabs.ai/labs-support
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!

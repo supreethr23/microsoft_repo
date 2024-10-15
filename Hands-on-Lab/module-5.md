@@ -183,7 +183,7 @@ In this task, you create a new online data migration project in DMS for the `Wid
 
 3. In **Step 2: Assessment summary and SKU recommendation (1)**, you will view the summary and SKU recommendations for your SQL server. Click on **Next (2)**. 
 
-   ![The new project settings for doing a SQL Server to Azure SQL Database migration assessment are entered into the dialog.]( images/E1T2S3.png "New project settings")
+   ![The new project settings for doing a SQL Server to Azure SQL Database migration assessment are entered into the dialog.]( images/E1T2S31.png "New project settings")
 
 4. In **Step 3: Target Platform and Assessment Results**, Select **Azure SQL Managed Instance (1)** from the drop down. Then select **WideWorldImporters** under database, checkbox the **WideWorldImporters** under database, and Click on the **Select** button.
 
@@ -196,7 +196,7 @@ In this task, you create a new online data migration project in DMS for the `Wid
   
 6. The field will be populated with the details and click on **Next**. 
 
-   ![]( images/E2T5S6.png )
+   ![]( images/E2T5S61.png )
    
 7. In **Step 4: Azure Database Migration Service** blade, select **Online migration**, select the location of the database backups to use during migration select **My database backups are on a network share** and Click on **Create new** under Azure Database Migration Service.
 

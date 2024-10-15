@@ -5,6 +5,8 @@
 Migrating and modernizing SQL Servers to Azure involves moving on-premises databases to cloud-based solutions like Azure SQL Database, Azure SQL Managed Instance, or SQL Server on Azure VMs. This process includes assessing existing workloads, choosing the appropriate migration approach, and leveraging Azure's cloud-native features for enhanced performance, security, and scalability. Post-migration, organizations benefit from automated backups, high availability, cost optimization, and continuous monitoring, all while reducing operational overhead and improving business continuity.
 
 ## Objective
+Migrate on-premises SQL Server databases and applications to Azure by creating an Azure Migrate project, assessing workloads, and executing database migrations to both Azure SQL Database and Azure SQL Managed Instance, while updating the web application for seamless integration.
+
 - **Create and Setup Azure Migrate Project and Appliance:** Create an Azure Migrate project and deploy the appliance to collect VM data from your Hyper-V environment for migration analysis.
 - **Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers:** use Azure Migrate to create a migration assessment for the application, using the data gathered during the discovery phase.
 - **Migrate the on-premises database to Azure SQL Database:** Connect to your SQLServer2008 VM, assess it for Azure SQL migration, migrate the schema and database using migration tools, and configure the application to connect to the SQL Azure Database. 

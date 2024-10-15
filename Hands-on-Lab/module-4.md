@@ -143,7 +143,7 @@ In this task, you use the Microsoft Data Migration Assistant (DMA) to assess the
 
 4. In **Step 3: Target Platform and Assessment Results**, Select **Azure SQL DataBase(1)** from the drop down. Then select **WideWorldImporters(2)** under the database, review the migration assessment to determine the possibility of migrating to Azure SQL DB, and Click on the **Cancel (3)** button.
 
-   ![The new project settings for doing a SQL Server to Azure SQL Database migration assessment are entered into the dialog.](images/E1T2S4.png "New project settings")
+   ![The new project settings for doing a SQL Server to Azure SQL Database migration assessment are entered into the dialog.](images/E1T2S41.png "New project settings")
 
     > The DMA assessment for migrating the `WideWorldImporters` database to a target platform of Azure SQL DB reveals features in use that are not supported. These features, including Service broker, prevent WWI from migrating to the Azure SQL DB PaaS offering without making changes to their database.
 

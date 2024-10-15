@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 
 > **Note**: Azure SQL Managed Instance has a private IP address in a dedicated VNet, so to connect an application, you must configure access to the VNet where the Managed Instance is deployed. To learn more, read Connect your application to Azure SQL Managed Instance `https://docs.microsoft.com/azure/azure-sql/managed-instance/connect-application-instance`.
 
-## Task 1: Deploy the web app to Azure
+### Task 1: Deploy the web app to Azure
 
 In this task, you will use JumpBox VM and then, using Visual Studio on the JumpBox, deploy the `WideWorldImporters` web application into the App Service in Azure.
 
@@ -74,7 +74,7 @@ In this task, you will use JumpBox VM and then, using Visual Studio on the JumpB
 2. If you select the link of the published web app from the Visual Studio output window, an error page is returned because the database connection strings have not been updated to point to the SQL MI database. You address this in the next task.
 
     ![An error screen is displayed because the database connection string has not been updated to point to SQL MI in the web app's configuration.]( images/web-app-error-screen.png "Web App error")
-## Task 2: Update App Service configuration
+### Task 2: Update App Service configuration
 
 In this task, you update the WWI gamer info web application to connect to and utilize the SQL MI database.
 
@@ -135,3 +135,6 @@ In this task, you update the WWI gamer info web application to connect to and ut
 ## Summary
 
 In this hands-on lab, you will deploy a web app to Azure and update its App Service configuration.
+
+### You have successfully completed the exercise!
+

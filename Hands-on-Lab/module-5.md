@@ -256,7 +256,7 @@ In this task, you create a new online data migration project in DMS for the `Wid
 
 18. In **Step 7: Summary** blade, click on **Start migration** .
 
-    ![]( images/E2T5S18.png)
+    ![]( images/E2T5S181.png)
 
 19. Click on **Migrations (1)**, from the dropdown menu set Status to **Status: All (2)**, feel free to **Refresh (3)** till the migration status is **Ready for cutover (4)**. 
     

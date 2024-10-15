@@ -102,7 +102,7 @@ In this task, you perform some configuration for the `WideWorldImporters` databa
 
 1. Once connected, verify you see the `WideWorldImporters` database listed under databases.
 
-    ![The WideWorldImporters database is highlighted under Databases on the SQL2008-instance.](images/Ex1-Task1-S11.png "WideWorldImporters database")
+    ![The WideWorldImporters database is highlighted under Databases on the SQL2008-instance.](images/Ex1-Task1-S112.png "WideWorldImporters database")
 
 1. Right click on **<inject key="SQLVM Name" /> (1)**, click on **Manage (2)**, and select **New Query (3)** from the Azure Data Studio toolbar.
 

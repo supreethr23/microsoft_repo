@@ -7,7 +7,7 @@ In this exercise we will use Azure Migrate to create a migration assessment for 
 
 ### Task 1: Create a migration assessment
 
-In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
+In this task, you will use Azure Migrate to create a migration assessment for the application using the data gathered during the discovery phase.
 
 1. Select **Assess (1)** under **Azure Migrate: Discovery and assessment** and click on **Azure VM (2)** to start a new migration assessment.
 

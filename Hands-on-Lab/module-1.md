@@ -206,3 +206,4 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 In this exercise, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
 
 ### You have successfully completed the lab
+Now, click on **Next** from the lower right corner to move to the next page.

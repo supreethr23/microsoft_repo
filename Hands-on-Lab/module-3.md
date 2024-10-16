@@ -193,24 +193,15 @@ After you have reviewed the assessment results and you have ensured the database
 1. On the **Select target** tab, enter the following:
 
    - **Server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net** 
-   
    - **Authentication type (2)**: Select SQL Server Authentication.
-   
    - **Username (3)**: Enter **demouser**
-   
    - **Password (4)**: Enter **<inject key="SQLVM Password" />**
-   
    - **Encrypt connection**: Check this box.
-   
    - **Trust server certificate (5)**: Check this box.
-   
    - Select **Connect (6)**, and then ensure the `parts` database is selected **(7)** from the list of databases.
-   
    - Select **Next (8)**.
 
-
      ![The Select target tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](images/data-migration-assistant-migration-select-target.png "Data Migration Assistant Select target")
-
 
 1. On the **Select objects** tab, leave all the objects checked **(1)**, and select **Generate SQL script (2)**.
 

@@ -2,18 +2,16 @@
 ### Estimated Duration: 60 minutes
 In this lab, you will deploy a web app to Azure and update its App Service configuration. This process involves setting up the web app in the Azure environment and configuring the necessary settings to ensure it runs smoothly. By the end of this lab, you will have a fully deployed and configured web app on Azure, ready for use.
 
-## Exercise 3: Update the web application to use the new SQL MI database
 ## Exercise Objectives
 
-Lab Objectives
-
+Exercise Objectives
 In this exercise, you will complete the following tasks:
 
 - Task 1: Deploy the web app to Azure
 - Task 2: Update App Service configuration
 
 > **Note**: Azure SQL Managed Instance has a private IP address in a dedicated VNet, so to connect an application, you must configure access to the VNet where the Managed Instance is deployed. To learn more, read Connect your application to Azure SQL Managed Instance `https://docs.microsoft.com/azure/azure-sql/managed-instance/connect-application-instance`.
-
+## Exercise 3: Update the web application to use the new SQL MI database
 ### Task 1: Deploy the web app to Azure
 
 In this task, you will use JumpBox VM and then, using Visual Studio on the JumpBox, deploy the `WideWorldImporters` web application into the App Service in Azure.

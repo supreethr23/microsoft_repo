@@ -135,7 +135,7 @@ In this task, you update the WWI gamer info web application to connect to and ut
 
 ## Summary
 
-In this hands-on lab, you will deploy a web app to Azure and update its App Service configuration.
+In this hands-on lab, you have deployed a web app to Azure and update its App Service configuration.
 
 ### You have successfully completed the exercise!
 

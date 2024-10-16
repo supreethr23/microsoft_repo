@@ -42,38 +42,38 @@ The architecture for this lab involves the following key components:
 - **Azure App Service:** A fully managed platform for building, deploying, and scaling web apps and APIs.
 - **SMB Network Share:** A file-sharing protocol used to create shared folders for backups or data transfer in the migration process.
 
-## Getting Started with Your Hybrid Cloud Solution Hands On Lab
+## Getting Started with Your Migrate and Modernise SQL Servers to Azure Hands Hands On Lab
 Welcome to your Migrate and Modernise SQL Servers to Azure Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
-## **Accessing Your Lab Environment**
+## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
  
-![](images/getstarted.png "Lab Environment")
+![](images/labguide.png "Lab Environment")
 
-## **Virtual Machine & Lab Guide**
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## **Exploring Your Lab Resources**
+## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![](./images/GS10.png)
+![](./images/envdetails.png)
  
-## **Utilizing the Split Window Feature**
+## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** icon at the bottom right corner.
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** icon at the top right corner.
 
 ![](./images/GS8.png)
  
-## **Managing Your Virtual Machine**
+## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![](./images/GS5.png)
  
-## **Let's Get Started with Azure Portal**
+## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
@@ -91,7 +91,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
         ![](images/GS3.png "Enter Password")
 
-1. 1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
+1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
 
    ![](images/asklater.png "Enter Password")
 
@@ -102,10 +102,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
     ![](images/GS9.png "Enter Password")
  
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe Later** to skip the tour.
-    
-1. Now, click on **Next** from the lower right corner to move to the next page.
-
-   ![](./images/GS4.png)
+   
 
 
 ## Support Contact
@@ -117,5 +114,10 @@ Learner Support Contacts:
    - Live Chat Support: https://cloudlabs.ai/labs-support
    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
+
+Now, click on **Next** from the lower right corner to move to the next page.
+
+   ![](./images/GS4.png)
+
 
 ### Happy Learning!!

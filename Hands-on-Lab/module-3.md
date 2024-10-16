@@ -363,5 +363,5 @@ At this point, you have migrated the database schema using DMA. In this task, yo
  
 In this exercise, you have migrated the on-premises database to Azure SQL Database.
 
-### You have successfully completed the lab!
+### You have successfully completed the lab
 Now, click on **Next** from the lower right corner to move to the next page.

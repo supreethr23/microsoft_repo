@@ -3,7 +3,7 @@
 
 The next step of Part Unlimited's migration project is the assessment and migration of its database. Currently, the database lives on SQL Server 2008 R2 on a virtual machine. You will use an **Azure Migrate: Database Assessment** tool called **Microsoft Data Migration Assistant (DMA)** to assess the `PartsUnlimited` database for migration to the Azure SQL Database. The assessment generates a report detailing any feature parity and compatibility issues between the on-premises database and Azure SQL Database. After the assessment, you will use an **Azure Migrate: Database Migration** service called **Azure Database Migration Service (DMS)**. During the exercise, you will use a simulated on-premises environment hosted on virtual machines running on Azure.
 
-### Exercise objectives
+## Exercise objectives
 In this exercise, you will complete the following tasks:
    - Task 1: Connect to your SqlServer2008 VM with RDP
    - Task 2: Perform assessment for migration to Azure SQL Database

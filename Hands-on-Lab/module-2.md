@@ -2,6 +2,10 @@
 
 ### Estimated Duration: 60 minutes
 
+### Exercise Objectives
+In this exercise, you will complete the following tasks:
+   - Task 1: Create a migration assessment
+
 ## Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 In this exercise we will use Azure Migrate to create a migration assessment for the application and install migrate dependency agent.
 

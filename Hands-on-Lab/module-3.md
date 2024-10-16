@@ -208,7 +208,9 @@ After you have reviewed the assessment results and you have ensured the database
    
    - Select **Next (8)**.
 
+
      ![The Select target tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](images/data-migration-assistant-migration-select-target.png "Data Migration Assistant Select target")
+
 
 1. On the **Select objects** tab, leave all the objects checked **(1)**, and select **Generate SQL script (2)**.
 

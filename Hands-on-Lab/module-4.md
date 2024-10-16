@@ -171,5 +171,6 @@ With one PaaS offering ruled out due to feature parity, perform a second DMA ass
 ## Summary
 In this exercise we focuses on connecting to the WideWorldImporters database on the SqlServer2008 VM and assessing its readiness for migration to Azure SQL Database and Azure SQL Managed Instance using the Data Migration Assistant to ensure compatibility and smooth transition.
 
-### You have successfully completed the exercise!
+### You have successfully completed the lab
+Now, click on **Next** from the lower right corner to move to the next page.
 

@@ -33,8 +33,6 @@ In this task, you create a new SMB network share on the <inject key="SQLVM Name"
 
 4. In the File Sharing dialog, ensure the **sqlmiuser** is listed with a **Read/Write** permission level, and then select **Share**.
 
-   ![In the File Sharing dialog, the sqlmiuser is highlighted and assigned a permission level of Read/Write.](https://raw.githubusercontent.com/microsoft/MCW-Migrating-SQL-databases-to-Azure/master/Hands-on%20lab/ images/file-sharing.png)
-
 5. In the **Network discovery and file sharing** dialog, select the default value of **No, make the network that I am connected to a private network**.
 
    ![In the Network discovery and file sharing dialog, No, make the network that I am connected to a private network is highlighted.]( images/network-discovery-and-file-sharing.png "Network discovery and file sharing")
@@ -117,7 +115,7 @@ To perform online data migrations, DMS looks for database and transaction log ba
    - Select **Back up to the existing  images set** and then select **Overwrite all existing backup sets**.
    - Under Reliability, check the box for **Perform checksum before writing to  images**. A checksum is required by DMS when using the backup to restore the database to SQL MI.
 
-      ![In the Back Up Database dialog, the  images Options page is selected, and Overwrite all existing backup sets and Perform checksum before writing to  images are selected and highlighted.]( images/ssms-back-up-database- images-options.png "Back Up Database")
+![In the Back Up Database dialog, the  images Options page is selected, and Overwrite all existing backup sets and Perform checksum before writing to  images are selected and highlighted.]( images/ssms-back-up-database-images-options.png "Back Up Database")
 
 10. Select **OK** to perform the backup.
 

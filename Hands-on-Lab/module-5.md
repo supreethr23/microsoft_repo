@@ -416,4 +416,5 @@ In this task, you connect to the SQL MI database using SSMS and quickly verify t
 In this hands-on lab, you will migrate the WideWorldImporters database from a SQL Server 2008 VM to Azure SQL Managed Instance.
 
 ### You have Successfully completed the lab
+Now, click on **Next** from the lower right corner to move to the next page.
 

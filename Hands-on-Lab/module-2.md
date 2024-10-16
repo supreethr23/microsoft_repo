@@ -2,7 +2,7 @@
 
 ### Estimated Duration: 60 minutes
 
-### Lab Objectives
+### Exercise Objectives
 In this exercise, you will complete the following tasks:
    - Task 1: Create a migration assessment
    - Task 2: Configure dependency visualization

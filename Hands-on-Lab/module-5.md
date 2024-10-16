@@ -6,7 +6,7 @@ In this lab, you will migrate the WideWorldImporters database from a SQL Server 
 
 Lab Objectives
 
-In this Exercise, you will complete the following tasks:
+In this exercise, you will complete the following tasks:
 
 - Task 1: Create an SMB network share on the VM
 - Task 2: Change MSSQLSERVER service to run under sqlmiuser account
@@ -417,5 +417,5 @@ In this task, you connect to the SQL MI database using SSMS and quickly verify t
 
 In this hands-on lab, you will migrate the WideWorldImporters database from a SQL Server 2008 VM to Azure SQL Managed Instance.
 
-### You have Successfully completed the Exercise!
+### You have Successfully completed the lab
 

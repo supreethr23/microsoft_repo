@@ -115,7 +115,7 @@ To perform online data migrations, DMS looks for database and transaction log ba
    - Select **Back up to the existing  images set** and then select **Overwrite all existing backup sets**.
    - Under Reliability, check the box for **Perform checksum before writing to  images**. A checksum is required by DMS when using the backup to restore the database to SQL MI.
 
-![In the Back Up Database dialog, the  images Options page is selected, and Overwrite all existing backup sets and Perform checksum before writing to  images are selected and highlighted.]( images/ssms-back-up-database-images-options.png "Back Up Database")
+![The OK button is highlighted on the Select Backup Destination dialog and C:\dms-backups\WideWorldImporters.bak is entered in the File name textbox.]( images/ssms-back-up-database-images-options.png "Back Up Database")
 
 10. Select **OK** to perform the backup.
 

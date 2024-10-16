@@ -5,7 +5,7 @@
 In this HOL, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources and finally migrating the servers to Azure with Azure Migrate resource which provide provides a simplified migration, modernization, and optimization service for Azure.
 
 ### Lab Objectives
-In this Exercise, you will complete the following tasks:
+In this exercise, you will complete the following tasks:
    - Exercise 1: Create and Setup Azure Migrate Project and Appliance
 
 ## Exercise 1: Create and Setup Azure Migrate Project and Appliance

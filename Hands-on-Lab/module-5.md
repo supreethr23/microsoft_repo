@@ -16,7 +16,7 @@ In this Exercise, you will complete the following tasks:
 - Task 6: Perform migration cutover
 - Task 7: Verify database and transaction log migration
 
-## Exercise 2: Perform database assessments
+## Exercise 2: Perform database Migrations
 ### Task 1: Create an SMB network share on the **<inject key="SQLVM Name" enableCopy="false"/>** VM
 
 In this task, you create a new SMB network share on the <inject key="SQLVM Name" enableCopy="false"/> VM. DMS uses this shared folder for retrieving backups of the `WideWorldImporters` database during the database migration process.

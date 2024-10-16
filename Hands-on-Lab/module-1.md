@@ -1,12 +1,13 @@
 # Hands-On-Lab 1: Migrate Windows and Linux Servers to Azure
 
-### Estimated Duration: 20 minutes
+### Estimated Duration: 45 minutes
 
 In this HOL, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources and finally migrating the servers to Azure with Azure Migrate resource which provide provides a simplified migration, modernization, and optimization service for Azure.
 
 ### Lab Objectives
 In this exercise, you will complete the following tasks:
    - Exercise 1: Create and Setup Azure Migrate Project and Appliance
+   - Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 
 ## Exercise 1: Create and Setup Azure Migrate Project and Appliance
 
@@ -204,4 +205,4 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
 In this exercise, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
 
-### You have successfully completed the exercise!
+### You have successfully completed the lab

@@ -74,6 +74,7 @@ In this task, you will use JumpBox VM and then, using Visual Studio on the JumpB
 2. If you select the link of the published web app from the Visual Studio output window, an error page is returned because the database connection strings have not been updated to point to the SQL MI database. You address this in the next task.
 
     ![An error screen is displayed because the database connection string has not been updated to point to SQL MI in the web app's configuration.]( images/web-app-error-screen.png "Web App error")
+
 ### Task 2: Update App Service configuration
 
 In this task, you update the WWI gamer info web application to connect to and utilize the SQL MI database.

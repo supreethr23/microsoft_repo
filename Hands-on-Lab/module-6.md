@@ -7,7 +7,7 @@ In this lab, you will deploy a web app to Azure and update its App Service confi
 
 Lab Objectives
 
-In this lab, you will complete the following tasks:
+In this exercise, you will complete the following tasks:
 
 - Task 1: Deploy the web app to Azure
 - Task 2: Update App Service configuration
